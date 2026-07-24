@@ -220,25 +220,13 @@ h1, h2, h3 { margin: 0; }
   position: relative; width: 100%; height: 100%;
   background: var(--canvas); border-radius: 36px; overflow: hidden;
 }
-.phone__screen img { width: 100%; height: 100%; object-fit: cover; }
+.phone__screen img {
+  width: 100%; height: 100%; object-fit: cover; object-position: top center;
+}
 .phone__notch {
   position: absolute; top: 10px; left: 50%; transform: translateX(-50%);
   width: 96px; height: 26px; background: #111; border-radius: 999px; z-index: 2;
 }
-/* Placeholder content (shown until a real screenshot is dropped in) */
-.phone__placeholder {
-  position: absolute; inset: 0;
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  gap: 22px; text-align: center; padding: 0 28px;
-}
-.phone__placeholder .brand__mark {
-  grid-template-columns: repeat(2, 30px);
-  grid-template-rows: repeat(2, 30px);
-  gap: 6px;
-}
-.phone__placeholder .brand__mark > span { border-radius: 7px; }
-.phone__placeholder-name { font-size: 34px; color: var(--ink); }
-.phone__placeholder-sub { font-size: 13px; color: var(--ink-muted); max-width: 180px; }
 
 /* ---- Feature grid -------------------------------------------------------- */
 .features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
