@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tables — Times tables practice for kids, minus the noise</title>
+  <meta name="description" content="A calm, focused way for children to practise their times tables — no ads, no subscriptions, no accounts, no distractions. A one-time purchase for iPhone and iPad.">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://tables.challengr.io/">
+
+  <!-- Set .js synchronously so reveal elements hide before first paint (and stay
+       visible if JS is disabled). -->
+  <script>document.documentElement.classList.add('js');</script>
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tables.challengr.io/">
+  <meta property="og:title" content="Tables — Times tables, minus the noise">
+  <meta property="og:description" content="A calm, focused way for children to practise times tables. No ads, no subscriptions, no accounts. iPhone & iPad.">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+
+<!-- ==================== NAV ==================== -->
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="/" class="brand" aria-label="Tables — home">
+      <span class="brand__mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+      <span class="brand__name disp">Tables</span>
+    </a>
+    <div class="nav__links">
+      <a href="#how" class="nav__link">How it works</a>
+      <a href="#progress" class="nav__link">Progress</a>
+      <a href="/support" class="nav__link">FAQ</a>
+      <!-- TODO: replace href="#" with the App Store URL once the app is published -->
+      <a href="#" class="btn btn--sm nav__link--keep" data-appstore-url aria-label="Download on the App Store">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.53c-.02-2.03 1.66-3 1.73-3.05-.94-1.38-2.4-1.57-2.93-1.59-1.25-.13-2.44.73-3.07.73-.63 0-1.61-.71-2.65-.69-1.36.02-2.62.79-3.32 2.01-1.42 2.46-.36 6.1 1.02 8.1.67.98 1.47 2.08 2.52 2.04 1.01-.04 1.39-.65 2.61-.65 1.22 0 1.56.65 2.63.63 1.09-.02 1.78-1 2.44-1.98.77-1.13 1.09-2.23 1.11-2.29-.02-.01-2.13-.82-2.15-3.24zM15.03 6.6c.56-.68.94-1.62.84-2.56-.81.03-1.79.54-2.37 1.21-.52.6-.97 1.56-.85 2.48.9.07 1.82-.46 2.38-1.13z"/></svg>
+        <span>Download</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ==================== HERO ==================== -->
+<header class="hero" id="top">
+  <div class="hero__grid">
+    <div class="hero__copy">
+      <span class="eyebrow hero__eyebrow">Times tables practice · iPhone &amp; iPad</span>
+      <h1 class="disp">Times tables,<br>minus the noise.</h1>
+      <p class="hero__lede">A calm, focused way for children to practise — no ads, no subscriptions, no accounts, and no distractions. Just multiplication, one question at a time.</p>
+      <div class="hero__cta">
+        <!-- TODO: replace href="#" with the App Store URL once the app is published -->
+        <a href="#" class="btn" data-appstore-url aria-label="Download on the App Store">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.53c-.02-2.03 1.66-3 1.73-3.05-.94-1.38-2.4-1.57-2.93-1.59-1.25-.13-2.44.73-3.07.73-.63 0-1.61-.71-2.65-.69-1.36.02-2.62.79-3.32 2.01-1.42 2.46-.36 6.1 1.02 8.1.67.98 1.47 2.08 2.52 2.04 1.01-.04 1.39-.65 2.61-.65 1.22 0 1.56.65 2.63.63 1.09-.02 1.78-1 2.44-1.98.77-1.13 1.09-2.23 1.11-2.29-.02-.01-2.13-.82-2.15-3.24zM15.03 6.6c.56-.68.94-1.62.84-2.56-.81.03-1.79.54-2.37 1.21-.52.6-.97 1.56-.85 2.48.9.07 1.82-.46 2.38-1.13z"/></svg>
+          <span class="btn__store"><small>Download on the</small><strong>App Store</strong></span>
+        </a>
+        <span class="hero__note">One-time purchase.<br>No subscriptions, no ads.</span>
+      </div>
+    </div>
+
+    <div class="hero__art">
+      <div class="hero__art-bg" aria-hidden="true"></div>
+      <!-- Phone hero. PLACEHOLDER shown until a real screenshot is added.
+           To use a real screenshot: put the PNG in /assets/img/ and replace the
+           .phone__placeholder block below with:
+             <img src="/assets/img/hero-screen.png" alt="The Tables app on iPhone" width="600" height="1272">
+      -->
+      <div class="phone" role="img" aria-label="The Tables app on iPhone">
+        <span class="phone__notch" aria-hidden="true"></span>
+        <div class="phone__screen">
+          <div class="phone__placeholder">
+            <span class="brand__mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+            <span class="phone__placeholder-name disp">Tables</span>
+            <span class="phone__placeholder-sub lf">App screenshot goes here</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ==================== FEATURES ==================== -->
+<section class="section wrap">
+  <div class="section-head reveal">
+    <span class="eyebrow" style="color:var(--clay)">Why Tables</span>
+    <h2 class="disp">Everything it needs. Nothing it doesn't.</h2>
+  </div>
+  <div class="features">
+    <div class="feature feature--sage reveal">
+      <div class="feature__mark"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></div>
+      <div class="feature__title disp">No ads</div>
+      <p class="feature__body">Not a single banner, pop-up, or upsell. Nothing competing for your child's attention.</p>
+    </div>
+    <div class="feature feature--butter reveal">
+      <div class="feature__mark"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div>
+      <div class="feature__title disp">No subscriptions</div>
+      <p class="feature__body">A single one-time purchase. No recurring charges, no plans, no renewals to cancel.</p>
+    </div>
+    <div class="feature feature--sky reveal">
+      <div class="feature__mark"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div>
+      <div class="feature__title disp">No logins</div>
+      <p class="feature__body">No account, no email, no password. Everything stays on the device.</p>
+    </div>
+    <div class="feature feature--lilac reveal">
+      <div class="feature__mark"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
+      <div class="feature__title disp">Quick to start</div>
+      <p class="feature__body">Open the app and practise in seconds. No setup, no onboarding, no waiting.</p>
+    </div>
+    <div class="feature feature--blush reveal">
+      <div class="feature__mark"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0-6 6c0 7-3 9-3 9h18s-3-2-3-9a6 6 0 0 0-6-6z"></path><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"></path><line x1="4" y1="4" x2="20" y2="20"></line></svg></div>
+      <div class="feature__title disp">No distractions</div>
+      <p class="feature__body">Quiet visuals, warm type, and sound you can switch off. Calm by design.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== HOW IT WORKS ==================== -->
+<section class="section wrap" id="how">
+  <div class="section-head reveal">
+    <span class="eyebrow" style="color:var(--clay)">How it works</span>
+    <h2 class="disp">Two ways to practise.</h2>
+    <p>Pick the tables, choose how to answer, and start. There's no setup, no account, no clock unless your child wants one.</p>
+  </div>
+
+  <div class="modes">
+    <div class="mode mode--sky reveal">
+      <span class="eyebrow mode__eyebrow">Beat the clock</span>
+      <div class="mode__title disp">Countdown</div>
+      <p class="mode__body" style="max-width:340px">A gentle race against the clock. How many can they answer correctly in 30, 60, 90, or 120 seconds?</p>
+      <div class="mode__big disp" aria-hidden="true">60</div>
+    </div>
+    <div class="mode mode--sage reveal">
+      <span class="eyebrow mode__eyebrow">No timer</span>
+      <div class="mode__title disp">Revision</div>
+      <p class="mode__body">No timer, no pressure. Questions lean toward the facts your child has been slower to answer, so practice targets what actually needs it.</p>
+      <div class="mode__tiles" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    </div>
+  </div>
+
+  <div class="card answers reveal">
+    <span class="eyebrow" style="color:var(--ink-muted)">Answer your way</span>
+    <div class="answers__grid">
+      <div>
+        <div class="answer__demo demo-mc" aria-hidden="true"><span></span><span class="is-correct"></span><span></span><span></span></div>
+        <div class="answer__title disp">Multiple choice</div>
+        <p class="answer__body">Tap the right answer from a grid of four or six tiles.</p>
+      </div>
+      <div>
+        <div class="answer__demo demo-pad" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span class="is-active"></span></div>
+        <div class="answer__title disp">Number pad</div>
+        <p class="answer__body">A clean, built-in keypad — never the system keyboard, so the screen stays simple.</p>
+      </div>
+      <div>
+        <div class="answer__demo demo-voice" aria-hidden="true">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="var(--lilac-text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="22"></line></svg>
+        </div>
+        <div class="answer__title disp">Voice <span class="badge lf">Soon</span></div>
+        <p class="answer__body">Say the answer out loud — coming in a future update.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== PROGRESS / MASTERY ==================== -->
+<section class="section wrap progress" id="progress">
+  <div class="progress__grid">
+    <div class="reveal">
+      <span class="eyebrow" style="color:var(--clay)">See real progress</span>
+      <h2 class="disp">A mastery grid, built only from real practice.</h2>
+      <p class="progress__lede">Every fact from 1×1 to 12×12 fills in as your child practises — showing what they've locked in and what still needs work. Never guessed, never padded out.</p>
+      <div class="legend">
+        <span><i class="is-m"></i>Mastered</span>
+        <span><i class="is-l"></i>Getting there</span>
+        <span><i class="is-n"></i>Not yet</span>
+      </div>
+    </div>
+    <div class="card mastery reveal">
+      <div id="mastery-grid" class="mastery__grid" role="img" aria-label="A 12 by 12 multiplication mastery grid, mostly filled in"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== PRIVACY BAND ==================== -->
+<section class="section wrap">
+  <div class="promise reveal">
+    <span class="eyebrow" style="color:var(--lilac-text)">Private by design</span>
+    <h2 class="disp">No login. No account. Nothing leaves the device.</h2>
+    <p class="promise__lede">There's no sign-up and nothing to manage. Everything stays on your child's device — nothing is uploaded, tracked, or sold. Open the app and start.</p>
+    <div class="chips">
+      <span class="chip">No sign-up</span>
+      <span class="chip">No tracking</span>
+      <span class="chip">On-device only</span>
+      <span class="chip">No ads</span>
+    </div>
+    <p class="promise__link"><a href="/privacy">Read the full privacy promise →</a></p>
+  </div>
+</section>
+
+<!-- ==================== FINAL CTA ==================== -->
+<section class="section wrap" style="padding-bottom:96px">
+  <div class="final reveal">
+    <div class="final__mark" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    <h2 class="disp">Ready when your child is.</h2>
+    <p class="final__lede">One-time purchase. Works on iPhone and iPad. Start practising the moment it's installed.</p>
+    <!-- TODO: replace href="#" with the App Store URL once the app is published -->
+    <a href="#" class="btn btn--lg" data-appstore-url aria-label="Download on the App Store">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.53c-.02-2.03 1.66-3 1.73-3.05-.94-1.38-2.4-1.57-2.93-1.59-1.25-.13-2.44.73-3.07.73-.63 0-1.61-.71-2.65-.69-1.36.02-2.62.79-3.32 2.01-1.42 2.46-.36 6.1 1.02 8.1.67.98 1.47 2.08 2.52 2.04 1.01-.04 1.39-.65 2.61-.65 1.22 0 1.56.65 2.63.63 1.09-.02 1.78-1 2.44-1.98.77-1.13 1.09-2.23 1.11-2.29-.02-.01-2.13-.82-2.15-3.24zM15.03 6.6c.56-.68.94-1.62.84-2.56-.81.03-1.79.54-2.37 1.21-.52.6-.97 1.56-.85 2.48.9.07 1.82-.46 2.38-1.13z"/></svg>
+      <span class="btn__store"><small>Download on the</small><strong>App Store</strong></span>
+    </a>
+  </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="brand">
+      <span class="brand__mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+      <span class="brand__name disp" style="font-size:18px">Tables</span>
+    </div>
+    <div class="footer__links">
+      <a href="/privacy">Privacy</a>
+      <a href="/support">FAQ</a>
+      <span class="footer__copy">© 2026 Challengr Apps</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>
